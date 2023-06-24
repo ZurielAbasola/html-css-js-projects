@@ -41,6 +41,8 @@ function getDiceFace(rollResult) {
     }
 }
 
+// Event Listener for Roll Button to register click.
+// When the button is clicked, the dice will roll.
 buttonE1.addEventListener("click", () => {
     diceE1.classList.add("roll-animation");
     setTimeout(() => {
